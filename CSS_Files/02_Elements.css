@@ -1,0 +1,15 @@
+p {
+    color:darkblue;
+    font-size:18px;
+    text-align: center;
+}
+
+div{
+    height: 350px;
+    width: 350px;
+    background-color: lightgrey;
+    border: 2px solid black;
+    text-align: center;
+    align-content: center; /* Center the content vertically */
+    padding: 1px; /* Applies to content border use inspect to see padding */
+}

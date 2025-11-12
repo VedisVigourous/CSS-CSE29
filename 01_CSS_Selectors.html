@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+</head>
+
+    <link rel="stylesheet" href="./CSS_Files/01_Style.css"> <!-- rel: marks relationship between the current document and the linked document
+        href: path of the linked document-->
+
+<body>
+    <!-- Types of Selectors: 
+         1. Element Selectors : Selects the elements by their tag name and targets them directly.
+            Example: p { color: blue; } 
+
+         2. Class Selectors : We can define a class in HTML and use it in CSS to style multiple elements.
+                              or 
+                              We can define multiple class to a single element in HTML and use it in CSS to style that element.
+            Example: .classname { font-size: 20px; }
+
+         3. ID Selectors -->
+
+
+         <!-- Types of Styling: 
+              1. Inline Styling : Styling in a single line [Highest Priority] -->
+        <p style="color: red; font-size: 18px;"><b>This is an example of inline styling :-</b><br> Used External styling in it for font </p>
+
+        <!-- 2. Internal Styling : Styling within the same HTML file using <style> tag [Medium Priority] {{Under head tag}}
+                applies to all the elements : globally in the file -->
+
+                <!-- <style> 
+                        <target tag>
+                            -- Styling lines --
+                        </target tag>
+                     </style> -->
+
+        <!-- 3. External Styling: Creating external file with style codes and then import to file using link tag {{Under head tag}} --> 
+
+        <!-- ******************** -->
+
+        <!-- II. Creating and targeting class: Just use attribute class in the tag [precedence of class is higher then element selector ]-->
+        <p class="myClass"><b>This is an example of class selector :-</b><br> Used External styling in it for font </p>
+        <!-- targetted in css file using .classname -->
+
+        <!-- III. Creating and targeting ID: Just use attribute id in the tag [precedence of id is higher then class selector ]-->
+        <p id="myid"><b>This is an example of ID selector :-</b><br> Used External styling in it for font </p>
+
+        <!-- Note if a tag : has both class and ID : it will format accroding to specified ID or class i.e. if class formatting is not present : then ID formatting is only done
+         
+        ** IF both : ID has more precedence-->
+
+        <!-- Precedence: 
+             element < class < id -->
+</body>
+</html>

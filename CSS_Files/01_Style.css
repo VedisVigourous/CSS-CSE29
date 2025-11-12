@@ -1,0 +1,15 @@
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* This is a class formatting */
+.myClass {
+    color: green;
+    font-size: 20px;
+}
+
+/* Using a ID formatting */
+#myid {
+    color: purple;
+    font-size: 22px;
+}

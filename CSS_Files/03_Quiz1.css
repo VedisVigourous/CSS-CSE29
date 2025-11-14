@@ -1,0 +1,12 @@
+h3{
+    color: purple;
+    text-align: center;
+}
+
+p{
+    color: red;
+}
+
+#myDiv{
+    border: 3px solid black;
+}

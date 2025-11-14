@@ -1,0 +1,22 @@
+#myDiv1{
+    border: 3px solid black;
+    height: 300px;
+    width: 1000px;
+}
+
+#myDiv2{
+    margin-left: 50px;
+    border: 30px solid blue;
+    margin-right: 20px;
+    height: 160px;
+    align-content: center;
+    background-color: #f7c81b;
+}
+
+h3{
+    text-align: center;
+}
+
+h1{
+    margin: 5px 0px 20px 5px;
+}

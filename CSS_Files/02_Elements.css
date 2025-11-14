@@ -8,8 +8,9 @@ div{
     height: 350px;
     width: 350px;
     background-color: lightgrey;
-    border: 2px solid black;
+    border: 2px double black;
     text-align: center;
     align-content: center; /* Center the content vertically */
     padding: 1px; /* Applies to content border use inspect to see padding */
+    margin: 5px 5px 5px 5px; /* Applies to element border use inspect to see margin */
 }

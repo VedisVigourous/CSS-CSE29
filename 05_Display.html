@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            display: block;
+            border: 2px solid blue;
+            margin: 5px;
+            padding: 5px;
+        }
+
+        div {
+            display: inline;
+            border: 2px solid red;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <!-- display - block:
+         Converts the inline elements to different block i.e. acquires the whole width. -->
+         <span> Hello </span>
+         <span> World </span> <!-- Without display-block it will come as a single line -->
+
+         <br><br>
+
+    <!-- display-inline: 
+        Converts block element to a in-line element
+        Note: Drawback - cannot format it's margin padding etc.  -->
+        <div> Hello </div>
+        <div> World </div>
+</body>
+</html>

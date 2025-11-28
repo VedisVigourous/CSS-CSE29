@@ -6,16 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    <div style="border: 3px solid black; background: #c488c0; padding: 10px;">
+    <div style="border: 3px solid black; background: #ffc0cb; padding: 10px; overflow: auto;">
+        <h1> float (image in an article)</h1>
+            <img src="./SupportingFiles/Laptopworking.png" alt="Laptop working" style="float: left; width: 320px; height: 380px ;">
+            <p style="font-size: 35px; display: inline-block;"> This text flows around the image, just like a newspaper<br>or blog post with an image aligned to the left. It continues<br>to wrap neatly around the floated image. </p>      
+    </div>
+
+    <hr>
+    <hr>
+
+     <div style="border: 3px solid black; background: #ffc0cb; padding: 10px; overflow: auto;">
         <h1> clear (Footer below floated content)</h1>
-        <div style="display: inline-block;">
-            <img src="./SupportingFiles/Laptopworking.png" alt="Laptop working" width="400px" height="450px" style="float: left; margin: 20px;">
-            <p style="font-size: 35px; display: inline-block;"> This paragraph wraps around the floated image. </p>
-            <footer style="clear: both; background: whitesmoke; padding: 10px; margin: 5px; font-size: 20px;">
-            This is the footer section that clears the floated content above.
-            </footer>
-        </div>
-        
+            <img src="./SupportingFiles/Laptopworking.png" alt="Laptop working" style="float: left; width: 320px; height: 380px ;">
+            <p style="font-size: 35px; display: inline-block;"> This text flows around the image, just like a newspaper<br>or blog post with an image aligned to the left. It continues<br>to wrap neatly around the floated image. </p>
+            <p style="clear: both; font-size: 28px; background-color: #d3d2d3;"> This is the footer section, forced below the floated image using clear: both</p>    
     </div>
 </body>
 </html>

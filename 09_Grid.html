@@ -41,11 +41,11 @@
            Syntax: gap: 10px 5px - rep row and column 
            
         6. justify-items :
-           1. flex-start
-           2. flex-end
-           3. center
-           4. stretch
-           5. base-line and simolarly: align-items 
+           a. flex-start
+           b. flex-end
+           c. center
+           d. stretch
+           e. base-line and simolarly: align-items 
            
         ** 7. place-items : combination of justfy and align items 
         
@@ -53,15 +53,29 @@
            mix of both props: place-content 
         
         **Remember: justify - main axis
-                    align - cross axis -->
+                    align - cross axis 
+                    
+        9. justify-self: justifies the element -->
 
+        <!-- for spanning of elements: Occupying cells more than one (write code for each element class)
+           
+          placing of item: grid-column and grid-row: <cell_no>;
+          spanning: grid-column: <start_line>/<end_line>;
+                    grid-row: <start_line>/<end_line>;
+
+          Ex.
+          grid-column - 5; 
+          grid-column - 1/2; start/end
+          grid-row - 2/4; start/end 
+          
+          can* also use : grid-<col/row>-<start/end>:<value>; and span-method also works (withing grid-end methods: span value) -->
         
 
     <div class="container">
-        <div class="box box2">Box1</div>
-        <div class="box box3">Box2</div>
-        <div class="box box4">Box3</div>
-        <div class="box box1">Box4</div>
+        <div class="box box1">Box1</div>
+        <div class="box box2">Box2</div>
+        <div class="box box3">Box3</div>
+        <div class="box box4">Box4</div>
     </div>    
 </body>
 </html>

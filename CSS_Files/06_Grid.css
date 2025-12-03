@@ -25,13 +25,20 @@
     background-color: coral;
     color: white;
     border: 2px dotted black;
+    border-radius: 50%;
+    align-content: center;
+    text-align: center;
+}
+
+.box1{
+    align-self:flex-end;
+}
+
+.box3{
+    align-self: flex-end;
 }
 
 /*
-
-.box1{
-    grid-area: header;
-}
 
 .box2{
     grid-area: main;

@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    height: 500px;
+    width: 700px;
+    background-color: aqua;
+    border: 2px solid black;
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color:steelblue;
+    color: white;
+    border: 2px dotted black;
+    text-align: center;
+    align-content: center;
+}

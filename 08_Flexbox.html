@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <link rel="stylesheet" href="./CSS_Files/05_Flexbox.css">
+</head>
+<body>
+
+    <!-- Flex - 1D Design tool and converts : Block element into row or inline elements [according to Device width].  
+     
+    Basic terminologies: 
+    Main axis: Depends on the direction of the flex: If all elements in a row then
+               Main axis: Row 
+               (other axis- Cross axis: Column) -->
+
+    <!-- Flex-direction : Changes the axis direction 
+    Types: 1. row
+           2. row-reverse
+           3. column
+           4. column-reverse -->
+
+    <!-- If child requires more space than the parent : It is squeezed to the same row
+         To shift it to other row 
+         Use prop:
+         flex-wrap
+         Types: 1.wrap
+                2.nowrap
+                3.wrap-reverse -->
+
+    <!-- Justify-content: Defines the alignment along the main axis.
+     Types: 1.flex-start
+            2.flex-end
+            3.center
+            4.space-between
+            5.space-around
+            6.space-evenly -->
+
+    <!-- align-item: Similar to justify but for cross axis
+    Types: 1. flex-start
+           2. flex-end
+           3. center
+           4. stretch
+           5. base-line -->
+
+    <!-- align-content: Same as align-items but - consider all the element as one
+    Types: 1. f-s
+           2. f-e
+           3. center
+           4. stretch
+           5. space-between
+           6. space-around  -->
+
+    <!-- Gap: gives gap between the elements
+    Types: 1. gap
+           2. row-gap
+           3. column-gap -->
+    <div class="container">
+        <div class="box box1">Box1</div>
+        <div class="box box2">Box2</div>
+        <div class="box box3">Box3</div>
+        <div class="box box4">Box4</div>
+    </div>
+</body>
+</html>

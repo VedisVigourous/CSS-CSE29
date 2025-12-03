@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <link rel="stylesheet" href="./CSS_Files/06_Grid.css">
+</head>
+<body>
+
+    <!-- Similar to flexbox but this is : 2D working (both row and column at once) 
+
+    Uses grid line: include border line and lines inside content
+
+    | | | | |
+    | | | | |
+    Ex. The above has 5 grid lines (vertial) and 2 grid tracks (spaces between lines)
+
+    Terminologies: 
+    1. grid-line
+    2. grid-cell
+    3. grid-area
+    4. grid-track -->
+
+    <!-- 1.grid-template-column: partitions the grid into column and element goes into row
+         2.grid-template-rows: partitions the grid into rows 
+         
+         3. grid-area: gives a specific area to the elements 
+            Types: 1. main
+                   2. sidebar
+                   3. footer
+                   4. header 
+                   
+        ** But we need to define areas to the cells we made using:
+        
+        4. grid-template-areas: assign the area name to the cells
+           Types: same as grid-area 
+           
+        5. gap: 
+           row-gap and column-gap : gives area between the cells 
+           Syntax: gap: 10px 5px - rep row and column 
+           
+        6. justify-items :
+           1. flex-start
+           2. flex-end
+           3. center
+           4. stretch
+           5. base-line and simolarly: align-items 
+           
+        ** 7. place-items : combination of justfy and align items 
+        
+        8. justify and align-content: works on all the elements as one 
+           mix of both props: place-content 
+        
+        **Remember: justify - main axis
+                    align - cross axis -->
+
+        
+
+    <div class="container">
+        <div class="box box2">Box1</div>
+        <div class="box box3">Box2</div>
+        <div class="box box4">Box3</div>
+        <div class="box box1">Box4</div>
+    </div>    
+</body>
+</html>

@@ -4,6 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        body{
+            background-color: brown;
+        }
+
+        .box {
+            width: 300px;
+            height: 300px;
+            background-color: white;
+            margin: 10px;
+            display: inline-block;
+        }
+
+            @media only screen and (max-width: 600px) {
+            .box {
+                width: 300px;
+                height: 300px;
+                background-color: yellow;
+            }
+         }
+    </style>
+
 </head>
 <body>
 
@@ -18,6 +41,12 @@
             <element/classes/ID> {
                 tags: and it's specification (bg-color etc.)
          }  -->
+         <div style="text-align: center;">   
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+         </div>
 
 </body>
 </html>
